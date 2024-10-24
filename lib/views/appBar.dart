@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 
-class UnitedShareAppBarWidget extends StatelessWidget implements PreferredSizeWidget {
+class AppBarWidget extends StatelessWidget implements PreferredSizeWidget {
  final Widget? leading;
  final double? leadingWidth;
  final bool automaticallyImplyLeading;
@@ -24,7 +24,7 @@ class UnitedShareAppBarWidget extends StatelessWidget implements PreferredSizeWi
  final BorderRadiusGeometry? gradientRadius;
 
 
- const UnitedShareAppBarWidget(
+ const AppBarWidget(
      {Key? key,
      this.leading,
      this.automaticallyImplyLeading = false,
