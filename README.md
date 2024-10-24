@@ -1,7 +1,7 @@
 # Total.js Flutter Library
 
 ![Build](https://github.com/mikebaumgart/total.js_flutter/workflows/build/badge.svg)
-[![Pub](https://img.shields.io/pub/v/flutter_package_template.svg)](https://github.com/mikebaumgart/total.js_flutter/)
+[![Pub](https://img.shields.io/pub/v/totaljs_flutter.svg)](https://pub.dev/packages/totaljs_flutter/)
 ![GitHub](https://img.shields.io/github/license/mikebaumgart/total.js_flutter)
 ![GitHub stars](https://img.shields.io/github/stars/mikebaumgart/total.js_flutter?style=social)
 
