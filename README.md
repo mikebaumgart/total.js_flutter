@@ -9,11 +9,16 @@ Package description
 
 ## Getting Started
 
-Add intro here
+Get the power of two framework champions.
+
+## Flutter for Dart
+
+## Total.js for Node.js
+
 
 ## Examples
 
-'''
+```dart
 import 'package:totaljs_flutter/total5.dart';
 
 // Total.js OpenLogger Service
@@ -22,7 +27,7 @@ final logger = OpenLogger(
     url: 'https://openlogger.yourdomain.tld',
     autoConfig: true,
   );
-'''
+```
 
 ## Feature requests and Bug reports
 
