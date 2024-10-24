@@ -1,6 +1,6 @@
 // Copyright (c) 2024, the totaljs_flutter project authors. Please see the AUTHORS file
 // for details. All rights reserved. Use of this source code is governed by a
-// BSD-style license that can be found in the LICENSE file.
+// MIT-style license that can be found in the LICENSE file.
 
 import 'package:flutter/material.dart';
 import 'package:totaljs_flutter/total5.dart';
@@ -29,44 +29,21 @@ class App extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home: const HomePage(),
+      home: const DefaultPage(),
     );
   }
 }
 
-class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+class DefaultPage extends StatefulWidget {
+  const DefaultPage({Key? key}) : super(key: key);
 
   @override
-  _HomePageState createState() => _HomePageState();
+  _DefaultPageState createState() => _DefaultPageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _DefaultPageState extends State<DefaultPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-    appBar: UnitedShareAppBarWidget(
-      automaticallyImplyLeading: true,
-      title: const Text(
-        "Total.js",
-        style: TextStyle(color: Colors.white),
-      ),
-      toolbarHeight: 56,
-      leadingWidth: 50,
-      centerTitle: true,
-      backgroundColor: Colors.green,
-      statusBarColor: Colors.blueGrey,
-      elevation: 10,
-      shadowColor: Colors.black,
-      //sideMargin: 10,
-      shapeBorder: const RoundedRectangleBorder(
-        borderRadius: BorderRadius.only(
-          bottomRight: Radius.circular(10),
-          bottomLeft: Radius.circular(10),
-        ),
-      ),
-      onBackButtonTapped: (BuildContext context) {},
-    ),
-  );
+    return const Text('Hello from flutter');
   }
 }
