@@ -1,0 +1,4 @@
+flutter packages pub publish --dry-run
+flutter packages pub publish
+
+pub uploader --package=totaljs_flutter add mike@totaljs.com>

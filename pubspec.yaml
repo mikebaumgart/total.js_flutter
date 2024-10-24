@@ -1,0 +1,25 @@
+name: totaljs_flutter
+version: 1.0.2
+homepage: https://reemax.io/totaljs_flutter
+repository: https://github.com/marchdev-tk/flutter_package_template
+issue_tracker: https://github.com/marchdev-tk/flutter_package_template/issues
+description: Total.js + Flutter
+
+environment:
+  sdk: '>=2.12.0 <4.0.0'
+
+dependencies:
+  device_info_plus: ^11.1.0
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
