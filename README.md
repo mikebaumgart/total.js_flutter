@@ -1,9 +1,9 @@
 # Total.js Flutter Library
 
-![Build](https://github.com/marchdev-tk/flutter_package_template/workflows/build/badge.svg)
-[![Pub](https://img.shields.io/pub/v/flutter_package_template.svg)](https://pub.dartlang.org/packages/flutter_package_template)
-![GitHub](https://img.shields.io/github/license/marchdev-tk/flutter_package_template)
-![GitHub stars](https://img.shields.io/github/stars/marchdev-tk/flutter_package_template?style=social)
+![Build](https://github.com/mikebaumgart/total.js_flutter/workflows/build/badge.svg)
+[![Pub](https://img.shields.io/pub/v/flutter_package_template.svg)](https://github.com/mikebaumgart/total.js_flutter/)
+![GitHub](https://img.shields.io/github/license/mikebaumgart/total.js_flutter)
+![GitHub stars](https://img.shields.io/github/stars/mikebaumgart/total.js_flutter?style=social)
 
 Package description
 
@@ -13,8 +13,17 @@ Add intro here
 
 ## Examples
 
-Add examples here
+'''
+import 'package:totaljs_flutter/total5.dart';
+
+// Total.js OpenLogger Service
+final logger = OpenLogger(
+    token: '<replace-with-your-token>',
+    url: 'https://openlogger.yourdomain.tld',
+    autoConfig: true,
+  );
+'''
 
 ## Feature requests and Bug reports
 
-Feel free to post a feature requests or report a bug [here](https://github.com/marchdev-tk/flutter_package_template/issues).
+Feel free to post a feature requests or report a bug [here](https://github.com/mikebaumgart/total.js_flutter/issues).
